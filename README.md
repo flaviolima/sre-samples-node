@@ -310,6 +310,8 @@ curl localhost:8080/api/circuitbreaker
 Ajustar o o percentual de falhas para que o circuit breaker obtenha sucesso ao receber as requisições após sua abertura.
 Observar comportamento do circuito no console.
 
+// INSIRA SUA ANÁLISE OU PARECER ABAIXO
+
 ---
 ### 2.5 Health Check
 Health check é uma prática comum para monitorar o status de uma aplicação e garantir que esteja funcionando corretamente.
