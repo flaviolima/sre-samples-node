@@ -428,6 +428,16 @@ spec:
 - **livenessProbe**: O Kubernetes faz uma requisição GET para o endpoint `/health/liveness`. Se retornar um código de status 200, o container é considerado vivo. Se falhar repetidamente, o container será reiniciado.
 - **readinessProbe**: O Kubernetes faz uma requisição GET para o endpoint `/health/readiness`. O container é considerado pronto se retornar 200. Se falhar, o container será removido das rotas de serviço até que esteja pronto novamente.
 
+**Propriedades das Probes**
+- `httpGet`: Realiza uma requisição HTTP.
+- `path`: O caminho do endpoint HTTP que será verificado (por exemplo, /health/liveness).
+- `port`: A porta do container onde a requisição será feita.
+- `initialDelaySeconds`: O tempo de espera antes do primeiro check ser executado.
+- `periodSeconds`: A frequência de execução do check.
+- `failureThreshold`: Quantas falhas consecutivas são necessárias para reiniciar o container.
+- `successThreshold`: Número de sucessos consecutivos necessários para marcar o container como pronto.
+- `timeoutSeconds`: Tempo máximo de espera antes de considerar o check como falha.
+
 Para saber mais, acesse:
 - https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
 - https://kubernetes.io/docs/concepts/configuration/liveness-readiness-startup-probes/
