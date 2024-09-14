@@ -224,7 +224,7 @@ curl localhost:8080/api/bulkhead
 Aumentar quantidade de chamadas simultâneas e avaliar o comportamento.
 ![Screen Shot 2024-09-13 at 22 36 17](https://github.com/user-attachments/assets/e379b022-fe78-41bf-9e4b-e4eb21781294)
 
-**BÔNUS**: implementar método que implementa threads para realizar as chamadas e logar na tela 
+**BÔNUS**: implementar método que utilizando threads para realizar as chamadas e logar na tela 
 
 ---
 ### 2.4 Circuit Breaker
