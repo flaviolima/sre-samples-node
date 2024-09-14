@@ -110,6 +110,9 @@ Ajustar configurações de timeout e corrigir erro de timeout execedido ao invoc
 
 ![Screen Shot 2024-09-13 at 21 42 04](https://github.com/user-attachments/assets/a451d1a1-ef3f-4116-8ab0-246d6548b7a3)
 
+// INSIRA SUA ANÁLISE OU PARECER ABAIXO
+
+
 ---
 ### 2.2 Rate Limit
 O Rate Limiting possibilita controlar a quantidade de requisições permitidas dentro de um período de tempo, evitando cargas massivas de requisições mal intensionadas, por exemplo.
@@ -168,6 +171,10 @@ curl localhost:8080/api/ratelimit
 Alterar limite de requisições permitidas para 100 num intervalo de 1 minuto e escrever uma função para simular o erro de Rate Limit.
 ![Screen Shot 2024-09-13 at 22 51 23](https://github.com/user-attachments/assets/6407456d-9bb5-41bb-ba17-9cc4a5272d29)
 
+
+// INSIRA SUA ANÁLISE OU PARECER ABAIXO
+
+
 ---
 ### 2.3 Bulkhead
 As configurações de Bulkhead permitem limitar o número de chamadas simultâneas a um serviço, de modo que a aplicação sempre esteja preparada para cenários adversos.
@@ -225,6 +232,10 @@ Aumentar quantidade de chamadas simultâneas e avaliar o comportamento.
 ![Screen Shot 2024-09-13 at 22 36 17](https://github.com/user-attachments/assets/e379b022-fe78-41bf-9e4b-e4eb21781294)
 
 **BÔNUS**: implementar método que utilizando threads para realizar as chamadas e logar na tela 
+
+
+// INSIRA SUA ANÁLISE OU PARECER ABAIXO
+
 
 ---
 ### 2.4 Circuit Breaker
