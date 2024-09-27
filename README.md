@@ -110,7 +110,12 @@ Ajustar configurações de timeout e corrigir erro de timeout execedido ao invoc
 
 ![Screen Shot 2024-09-13 at 21 42 04](https://github.com/user-attachments/assets/a451d1a1-ef3f-4116-8ab0-246d6548b7a3)
 
+```
 // INSIRA SUA ANÁLISE OU PARECER ABAIXO
+
+
+
+```
 
 
 ---
@@ -172,7 +177,12 @@ Alterar limite de requisições permitidas para 100 num intervalo de 1 minuto e 
 ![Screen Shot 2024-09-13 at 22 51 23](https://github.com/user-attachments/assets/6407456d-9bb5-41bb-ba17-9cc4a5272d29)
 
 
+```
 // INSIRA SUA ANÁLISE OU PARECER ABAIXO
+
+
+
+```
 
 
 ---
@@ -234,7 +244,12 @@ Aumentar quantidade de chamadas simultâneas e avaliar o comportamento.
 **BÔNUS**: implementar método que utilizando threads para realizar as chamadas e logar na tela 
 
 
+```
 // INSIRA SUA ANÁLISE OU PARECER ABAIXO
+
+
+
+```
 
 
 ---
@@ -310,7 +325,12 @@ curl localhost:8080/api/circuitbreaker
 Ajustar o o percentual de falhas para que o circuit breaker obtenha sucesso ao receber as requisições após sua abertura.
 Observar comportamento do circuito no console.
 
+```
 // INSIRA SUA ANÁLISE OU PARECER ABAIXO
+
+
+
+```
 
 ---
 ### 2.5 Health Check
